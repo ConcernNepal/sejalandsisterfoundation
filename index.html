@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>SisterFoundation</title>
     <link rel="icon" href= "logo.png" type="image/x-icon" />
 </head>
 <body>
     <header>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
         <h1 class="logo">
             <img src="logo.png" alt="Logo">
         </h1>
@@ -20,7 +25,8 @@
             <li class="navlink"><a href="#">Partners</a></li>
             <li class="navlink"><a href="#">Contact</a></li>
         </ul>
-        
+
+
             <div class="social-media">
                
                 <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
@@ -195,14 +201,14 @@
                 <button class="read-more">READ MORE</button>
             </div>
             <div class="right-panel">
-                <ul>
+                <ol class="work">
                     <li onclick="updateContent('Food and Nutrition', 'We improve dietary health through sustainable nutrition strategies.')">Food and Nutrition</li>
                     <li onclick="updateContent('Environment', 'We promote ecological sustainability and environmental consciousness.')">Environment</li>
                     <li onclick="updateContent('Child and Maternal Health', 'We enhance healthcare access for mothers and children.')">Child and Maternal Health</li>
                     <li onclick="updateContent('Community Development', 'Strengthening communities through empowerment and sustainable development.')">Community Development</li>
                     <li onclick="updateContent('Social Inclusion', 'Promoting inclusivity, equality, and diversity in all aspects.')">Social Inclusion</li>
                     <li onclick="updateContent('Good Governance', 'Empowering Communities, Inspiring Progress: Driving Data-Backed Policies for Good Governance')">Good Governance</li>
-                </ul>
+                </ol>
             </div>
         </div>
         
