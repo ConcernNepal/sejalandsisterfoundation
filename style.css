@@ -66,6 +66,10 @@ header {
 .navlink :hover
 {
     color: #CE4D9C;
+    color: #fff;
+    background: 0 0;
+    border-radius: 8px;
+    border: 2px solid #D64AAE;
 }
 .checkbtn {
   font-size: 30px;
@@ -144,7 +148,7 @@ header {
   }
   
   .slider-content h1 {
-    font-size: 8em;
+    font-size: 75px;
     font-weight: bolder;
     margin-bottom: 20px;
   }
@@ -174,10 +178,13 @@ header {
   }
   
   .slider-button:hover {
-    background-color: #B63A88;
+    color: #fff;
+    background: 0 0;
+    border-radius: 8px;
+    border: 2px solid #D64AAE;
   }
   
-  .sliding-background::before {
+  .sliding-background::after {
     content: "";
     position: absolute;
     top: 0;
@@ -186,7 +193,7 @@ header {
     height: 100%;
     background-size: cover;
     background-position: center;
-    animation: slide 9s infinite;
+    animation: slide 3s infinite;
     z-index: 1;
     opacity: 0.3; /* Adjust for transparency */
   }
@@ -540,10 +547,13 @@ header {
 }
 
 .article-item:hover {
-  transform: scale(1.02);
+  /* transform: scale(1.02);
   color: #99D4DC;
-  background: #CE4D9C;
-  
+  background: #CE4D9C; */
+  color: #fff;
+  background: 0 0;
+  border-radius: 8px;
+  border: 2px solid #D64AAE;
 }
 
 .article-info {
@@ -580,6 +590,7 @@ header {
   cursor: pointer;
 }
 .view-more:hover {
+  
   text-align: center;
   font-size: 1rem;
   color: #CE4D9C;
